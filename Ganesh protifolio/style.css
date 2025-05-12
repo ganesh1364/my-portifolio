@@ -1,0 +1,499 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif ;
+    box-sizing: border-box;
+   
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: black;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+
+}
+#top{
+    width: 100%;
+    height: 100vh;
+    background-image: url("");
+   background-position: center;
+    background-size: cover;
+}
+.content{
+    padding: 10px 10%;
+
+
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+nav img{
+    width: 200px;
+    height: 200px;
+
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+
+
+
+
+nav ul li a::after{
+
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.header-text h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff004c;
+    font-size: 50px;
+}
+.header-text p{
+    color: #fff;
+}
+#about{
+    padding: 80px 0;
+    color: azure;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-2 p{
+    font-size: larger;
+
+}
+.about-col-2 p span{
+    color: goldenrod;
+    font-size:x-large;
+    
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img {
+    width: 90%;
+    border-radius:25px;
+
+
+}
+.about-col-2{
+    flex-basis: 65%;
+    padding-left: 25px;
+
+}
+.sub-tittle{
+    font-size: 60px;
+    font-weight: 600;
+    color:#fff ;
+}
+.tab-tytles{
+  display: flex;
+  margin: 20px 0 40px;
+    
+}
+
+.Education h1{
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    color: azure;}
+
+.Education h1::after{
+    content: '';
+    width: 290px;
+    height: 6px;
+    background-color:  #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+
+.Education h1{
+
+    margin-left: 150px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff ;
+    
+
+}
+
+.Education  table {
+    
+    border-spacing: 30px;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+
+}
+.Education  table tr td{
+    background-color: rgb(39, 39, 40);
+    border: 1px solid rgb(243, 185, 154);
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+}
+.Education table tr td:hover{
+    border: 1px solid rgba(243, 185, 154, 0.266);
+    
+    
+}
+.Education  table tr td span{
+    color: gold;
+}
+.Education table h2{
+    color:  #ff004f;
+}
+
+
+
+ .sk h1{
+    margin-left: 150px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff ;
+    
+
+}
+
+.sk h1{
+    margin-right: 50px;
+    
+    
+    cursor: pointer;
+    position: relative;
+    color: azure;}
+
+.sk h1::after{
+    content: '';
+    width: 160px;
+    height: 6px;
+    background-color:  #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+
+
+
+
+
+.Contact h1{
+    margin-right: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    color: azure;
+    margin-left:150px;
+}
+
+
+
+.Contact h1::after{
+    content: '';
+    width: 230px;
+    height: 6px;
+    background-color:  #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+
+}
+form{
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    background-color:rgb(39, 39, 40);
+    
+    
+}
+form:hover{
+    border: 1px solid rgb(246, 168, 127);
+
+}
+input,textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgb(25, 24, 24) ;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: large;
+    background-color:#f0efe5;
+}
+ #send{
+    
+    padding: 10px 20px;
+    background-color: #f3f0e5;
+    border: 1px solid none;
+    border-radius: 10px;
+    margin-left: 20%;
+    width: 60%;
+    
+    
+}
+#send:hover{
+    border: 1px solid rgb(204, 255, 0);
+    background-color: rgb(245, 92, 9); 
+    transition: 0.5s;
+
+    
+}
+input:hover,textarea:hover{
+    border: 1px solid  rgb(252, 182, 5);
+    transition: 0.5s;
+    background-color: rgb(203, 215, 226);
+}
+#con{
+    
+    border-radius: 20px;
+    display: inline;
+}
+#con p{
+    margin: 0 150px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.icon1{
+    margin-left: 40%;
+    margin-right: auto;
+    text-decoration: none;
+
+}
+.icon1  a{
+    text-decoration: none;
+    color: #f3f0e5;
+    font-size: 40px;
+    color: #e1aaba;
+    text-align: center;
+}
+.icon1  a:hover{
+    color: #ff004f;
+    transition: 0.6s;
+}
+
+
+
+.icon{
+    margin-left: 40%;
+    margin-right: auto;
+    font-size: 60px;
+}
+
+.icons a {
+    text-decoration: none;
+    margin: 0 20px;
+    display: inline-block;
+    font-size: 40px;
+    color: #f0efe5;
+    
+}
+.icons a ion-icon[name="logo-facebook"]:hover{
+    color: #1877f2;
+    transition: 0.8s;
+}
+.icons a ion-icon[name="logo-instagram"]:hover{
+    color: #bc2a8d;
+    transition: 0.8s;
+}
+.icons a ion-icon[name="logo-github"]:hover{
+    color: #333;
+    transition: 0.8s;
+}
+.icons a ion-icon[name="logo-linkedin"]:hover {
+    color: #0077b5;
+    transition: 0.8s;
+}
+
+
+.home a{
+    text-decoration:none ;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    margin-left: 50%;
+    
+}
+.home a::after{
+
+        content: '';
+        width: 0;
+        height: 5px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+}
+
+.home a:hover::after{
+    width: 100%;
+}
+.container{
+    
+    padding: 1%;
+    color: #e1aaba;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+/* Skills Section Styling */
+.sk h1 {
+    margin-left: 150px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    color: azure;
+}
+
+.sk h1::after {
+    content: '';
+    width: 160px;
+    height: 6px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+
+/* Skills Bar Container */
+.sk .skills-bars {
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 80%;  /* Ensure the container is wide enough */
+}
+
+/* Individual Skill Bar */
+.sk .skills-bars .bar {
+    background-color: lightgray;
+    width: 100%; /* Makes the bar stretch across the container */
+    height: 15px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px; /* Adds spacing between skill bars */
+}
+
+.sk .skills-bars .bar .progress {
+    background-color: #302e2e;
+    height: 100%;
+}
+
+/* Skill Text */
+.sk span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    margin-bottom: 5px; 
+}
+
+/* Certificates Header Styling */
+.Certificates h1 {
+    margin-left: 150px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    color: azure;
+}
+
+.Certificates h1::after {
+    content: '';
+    width: 330px;
+    height: 6px;
+    background-color: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+}
+
+/* Gallery Layout */
+.Certificates .gallery {
+    display: flex; /* Added Flexbox */
+    justify-content: space-between; /* Space out gallery items */
+    gap: 20px; /* Optional: Adds space between gallery items */
+    flex-wrap: wrap; /* Ensures that gallery items wrap if space is insufficient */
+    margin-left: 10%; /* Adjust margin for alignment */
+    margin-right: 10%; /* Adjust margin for alignment */
+}
+
+.Certificates .gallery-item {
+    width: 30%; /* Adjusts width of each item to fit 3 items per row */
+    border: 2px solid rgb(246, 168, 127);
+    border-radius: 20px;
+    box-shadow: #fff;
+    background-color: rgb(39, 39, 40);
+    transition: border 0.3s ease; /* Adds a smooth transition effect on hover */
+}
+
+.Certificates .gallery-item:hover {
+    border: 4px solid #777; /* Border color changes on hover */
+}
+
+.Certificates .gallery-item img {
+    width: 100%; /* Ensures the image takes up full width inside the item */
+    height: 200px; /* Fixed height for images */
+    border-radius: 25px; /* Rounds the corners of the image */
+}
+
+.Certificates .desc {
+    padding: 15px;
+    text-align: center;
+}
